@@ -200,63 +200,89 @@ OPERATOR	                  DESCRIPTION	                                SYNTAX
 and	Logical AND:            True if both the operands are true	            x and y
 or	Logical OR:             True if either of the operands is true	        x or y
 not	Logical NOT:             True if operand is false	                     not x
-'''
 
-
-
-'''
 3.Comparision/Relational Operator:Relational operators are used for comparing the values. 
 It either returns True or False according to the condition. Ex:=,<,>,<=,>=
 4.Assignment Operator:It assigns the value of its right-hand operand to a variable, a property, or an indexer element given by its left-hand operand
 5.Membership Operator:We use membership operators to check whether a value or variable exists in a sequence (string, list, tuples, sets, dictionary) or not
 In Python, there are two membership operators. (in, not in).
+For example '''
+X = 5 in { 1,2,3,4}                                         
+Print(x)
+
+'''
+Output - False
+As there is no 5 in the set.
+
 6.Identity Operator:Identity operators are used to comparing the objects 
 if both the objects are actually of the same data type and share the same memory location.
+For example'''
+x = 5
+y = 5
+print(x is y)
+# Output = True
+
+'''
+=============================================================================================================================================================
+== VS IS OPERATORS
+
+      ==  : is for value equality. It's used to know if two objects have the same value.
+      is  : is for reference equality. It's used to know if two references refer (or point) to the same object, i.e if they're identical.
 
 =======================================================================================================================================================
 Keywords : Python keywords are special reserved words that have specific meanings and purposes and
              can't be used for anything but those specific purposes.
+             In 3.10 version there are 35 keywords.
+             
+KEY WORDS AVAILABLE IN PYTHON
+  Keyword          Description
+=============   ==================
+  and	    --->  A logical operator
+  as	    --->  To create an alias
+ assert	    --->  For debugging
+ break	    --->  To break out of a loop
+ class	    --->  To define a class
+ continue   ---> To continue to the next iteration of a loop
+  def	    ---> To define a function
+  del	    ---> To delete an object
+ elif	    ---> Used in conditional statements, same as else if
+ else	    ---> Used in conditional statements
+ except	    ---> Used with exceptions, what to do when an exception occurs
+False	    ---> Boolean value, result of comparison operations
+finally	    ---> Used with exceptions, a block of code that will be executed no matter
+                 if there is an exception or not
+for         --->  To create a for loop
+from        --->  To import specific parts of a module
+global      --->  To declare a global variable
+if	        ---> To make a conditional statement
+import	    ---> To import a module
+in          ---> To check if a value is present in a list, tuple, etc.
+is	        ---> To test if two variables are equal
+lambda	    ---> To create an anonymous function
+None	    ---> Represents a null value
+nonlocal    ---> To declare a non-local variable
+not	        ---> A logical operator
+or	        ---> A logical operator
+pass	    ---> A null statement, a statement that will do nothing
+raise	    ---> To raise an exception
+return	    ---> To exit a function and return a value
+True        ---> Boolean value, result of comparison operations
+try	        ---> To make a try...except statement
+while	    ---> To create a while loop
+with	    ---> Used to simplify exception handling
+yield       ---> To end a function, returns a generator             
                                        
-==============================================================================================================================================
-DATA TYPES
-===============================================================================================================================================
-1. DATA TYPES IN PYTHON
-    1.NUMBERS ---> python supports four different data types .they are int,long,float,comolex
-
-    2.STRING ---> strings are amongst the most popular type in python.we can create them simply enclosing charecters in quotes
-                  python threats single quotes the same as double quotes.
-
-===============================================================================================================================================----------------------------------------------------------------------------------------------------------------------------
-2.DATA STRUCTURES IN PYTHON
-    list,tuple,dictionary and set
-
-    list ----> list is a mutable data structure
-               the list is a most versatile data type available in python which can be 
-               written as a list of comma separated values b/w square brackets
-
-    tuple ----> tuple is immutable data structure 
-                tuples are sequences , just like lists
-
-    dictionary ----> dictionary is a mutable data structure 
-                    dictionary in python is an unorderd collection of data values
-
-    set ----> a set is an unodered and mutable collection of unique elements
-
 ============================================================================================================================================================
-list vs tuple?
+DATA TYPES
+===================================================================================================================================================================
+What are datatypes:
+Datatypes are nothing but the classification of data.
+=========================================================================================================================================================
+DATA TYPES IN PYTHON
+    1.NUMBERS ---> python supports four different data types .they are int,long,float,complex
 
-    list
-        list is mutable
-        implication of iterations is time- consuming
-        list consume more memory
-        list have several bulit in methods like append,count,extend,index,insert,reverse etc
-
-    tuple
-        tuples are immutable
-        The implication of iterations is comparatively faster
-        tuple consume less memory as compared to the list
-        tuple does not have many bulit in methods
-          tuple functions like min,max,len etc
+    2.STRING ---> strings are amongst the most popular type in python.we can create them simply enclosing characters in quotes
+                  python threats single quotes the same as double quotes.
 ====================================================================================================================================================          
 
 Typecasting:
