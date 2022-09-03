@@ -14,7 +14,7 @@ It is used for iterating over a sequence(i.e.either a list, a tuple, a string,ra
 
 '''
 #  Write while loop statement to print the following series:
-10, 20, 30 … … 300
+# 10, 20, 30 … … 300
 i=10
 while i<=300:
     print(i)
@@ -45,8 +45,8 @@ for i in range(1,21):
 # You can return the answer in any order.
 
 # Input: nums = [2,7,11,15], target = 22
-# Output: [0,1]
-# Explanation: Because nums[0] + nums[1] == 22, we return [0, 1].
+# Output: [1,3]
+# Explanation: Because nums[1] + nums[3] == 22, we return [1, 3].
 nums = [2,7,11,15]
 def two_sums(nums,tar):
     for i in range(len(nums)):

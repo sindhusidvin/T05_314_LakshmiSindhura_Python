@@ -14,30 +14,59 @@ will be executed or not i.e if a certain condition is true then a block of state
 
 '''
 # Write a program to check whether the last digit of a number (entered by user) is divisible by 3 or not
-user=input("Enter the Number: ")
-last_digit=int(user[-1])
-print(last_digit)
-if last_digit % 3 == 0:
-    print("Last digit is divisible by 3")
-else:
-    print("Last digit is not divisible by 3")
+# user=input("Enter the Number: ")
+# last_digit=int(user[-1])
+# print(last_digit)
+# if last_digit % 3 == 0:
+#     print("Last digit is divisible by 3")
+# else:
+#     print("Last digit is not divisible by 3")
+#
+#
+# # Write a program to find the sum of all even numbers that falls between two numbers (exclusive both numbers) entered from the user using while loop.
+# num1=int(input("Enter first number: "))
+# num2=int(input("Enter second number: "))
+# if num1<num2:
+#     while (num1<num2):
+#         if num1 > (num1 + 1):
+#             if num1%2==0:
+#                 print(num1)
+#         num1=num1+1
+# else:
+#     if num1>num2:
+#         while (num1>num2):
+#             if num2%2==0:
+#                 print(num2)
+#             num2=num2+1
 
 
-# Write a program to find the sum of all even numbers that falls between two numbers (exclusive both numbers) entered from the user using while loop.
-num1=int(input("Enter first number: "))
-num2=int(input("Enter second number: "))
-if num1<num2:
-    while (num1<num2):
-        if num1 > (num1 + 1):
-            if num1%2==0:
-                print(num1)
-        num1=num1+1
-else:
-    if num1>num2:
-        while (num1>num2):
-            if num2%2==0:
-                print(num2)
-            num2=num2+1
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+num = int(input('Enter the number: '))
+if num > 2 and num < 5:
+    print('Number is between 2 and 5')
+elif num < 2:
+    print('Number is less than two')
+elif num > 5:
+    print('Number is greater than five')
+
+
+
+
+
+# sindhura
 
